@@ -1,0 +1,23 @@
+---
+import type { Subsection } from "../types";
+interface Props {
+  subsection: Subsection;
+}
+const { subsection } = Astro.props;
+---
+
+<div class="flex flex-row justify-between">
+  <h3 class="text-xl">
+    {subsection.name}
+  </h3>
+  <p>{subsection.date}</p>
+</div>
+
+{subsection["@"] && <h4 class="text-lg">{subsection["@"]}</h4>}
+<ul class="list-disc">
+  {
+    subsection.information?.map((info) => {
+      return <li class="list-item">{info}</li>;
+    })
+  }
+</ul>

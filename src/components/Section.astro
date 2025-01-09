@@ -1,0 +1,18 @@
+---
+import type { Section } from "../types";
+import Subsection from "./Subsection.astro";
+interface Props {
+  section: Section;
+}
+
+const { section } = Astro.props;
+---
+
+<h2 class="text-2xl">
+  {section.name}
+</h2>
+{
+  section.subsections.map((subsection) => {
+    return <Subsection subsection={subsection} />;
+  })
+}

@@ -1,0 +1,10 @@
+---
+import type { Profile } from "../types";
+interface Props {
+  profile: Profile;
+}
+const { profile } = Astro.props;
+---
+
+<h2 class="text-4xl">Profile</h2>
+<p class="italic">{profile.description}</p>

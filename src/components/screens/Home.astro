@@ -1,0 +1,21 @@
+---
+import cv from "../../assets/cv.json";
+import Profile from "../../components/Profile.astro";
+import Section from "../Section.astro";
+---
+
+<div class="container">
+  <nav>
+    <ul class="flex flex-row">
+      <li>Profile</li>
+      <li>Links</li>
+      <li>Experience</li>
+    </ul>
+  </nav>
+  <Profile profile={cv.profile} />
+  {
+    cv.sections.map((section) => {
+      return <Section section={section} />;
+    })
+  }
+</div>
