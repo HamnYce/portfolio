@@ -1,0 +1,145 @@
+{
+  "name": "Hamad Bouabbas",
+  "links": {
+    "github": "github.com/hamnyce",
+    "linkedin": "linkedin.com/in/hamnyce"
+  },
+  "location": "Kuwait City, Kuwait",
+  "profile": {
+    "description": "Aspiring computer scientist with a passion for developing efficient, user-centric software solutions. Proven track record in programming competitions, web development, and data visualization. Proficient in a wide array of technologies with a strong foundation in computer science fundamentals."
+  },
+  "sections": [
+    {
+      "name": "Education",
+      "subsections": [
+        {
+          "name": "Gulf University of Science & Technology",
+          "date": "Sep 2020 - expected Dec 2024",
+          "information": [
+            "Bachelor of Science, Computer Science",
+            "gpa: 3.78/4.00",
+            "Coursework: Data Structures, Concepts of Programming Languages, DBMS, Computer Architecture, Operating Systems, Networks, Data Science, Discrete Math, Numerical Analysis, Intro to Differential Equations, Applied Statistics, Linear Algebra"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Experience",
+      "subsections": [
+        {
+          "name": "Junior Web Developer",
+          "date": "Jul 2024 – Present",
+          "@": "Gulf University for Science and Technology (GUST) – Kuwait",
+          "information": [
+            "Developed a kanban task management system with role-based user functionalities, serving 50+ active users.",
+            "Worked extensively with nuxt.js for front-end development and node.js (typescript) for backend services.",
+            "Designed mysql database tables to support application features and improve query performance.",
+            "Collaborated with a team to integrate nuxt.js with a scalable node.js (typescript) back-end."
+          ]
+        },
+        {
+          "name": "Data Visualisation Engineer",
+          "date": "Dec 2021 – Jan 2022",
+          "@": "Remote",
+          "information": [
+            "Leveraged Plotly Express and SQLAlchemy to create visually engaging and responsive graphs, representing live Twitter data in real time."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Competions",
+      "subsections": [
+        {
+          "name": "1st Place, ICPC-KCPC – Kuwait Competitive Programming Competition",
+          "date": "Oct 2022"
+        },
+        {
+          "name": "1st Place, Gulf Bank Datathon",
+          "date": "May 2023"
+        },
+        {
+          "name": "2nd Place, ICPC-KCPC",
+          "date": "Oct 2023"
+        },
+        {
+          "name": "4th Place, ICPC-KCPC",
+          "date": "Oct 2024"
+        },
+        {
+          "name": "7th Place, GPC – Gulf Programming Competition",
+          "date": "Nov 2023"
+        },
+        {
+          "name": "Kuwait Hackathon",
+          "date": "Oct 2023"
+        }
+      ]
+    },
+    {
+      "name": "Projects",
+      "subsections": [
+        {
+          "name": "Chess",
+          "date": "Mar 2022– May 2022",
+          "link": "github.com/HamnYce/ruby-chess",
+          "information": [
+            "Developed a CLI-based chess game with rule enforcement and interactive gameplay.",
+            "Utilized test-driven development with RSpec for high code quality."
+          ]
+        },
+        {
+          "name": "The Odin Project (Ruby Path)",
+          "date": "May 2020 – Dec 2022",
+          "information": [
+            "In-depth coverage of Ruby, RSpec, Rails, HTML/CSS, JavaScript, SQL, Git."
+          ]
+        },
+        {
+          "name": "Build Your Own Lisp",
+          "date": "Feb 2023",
+          "link": "github.com/HamnYce/lispi",
+          "information": [
+            "Created a Lisp-like language parser and evaluator in C, including an interactive shell with history tracking."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Certifications & Degrees",
+      "subsections": [
+        {
+          "name": "UPCSE by UCL",
+          "date": "June 2018"
+        },
+        {
+          "name": "IPFS (IT Skills Pathway) by NHS",
+          "date": "Feb 2019",
+          "information": [
+            "Word 2013 for the Workplace",
+            "PowerPoint 2013 for the Workplace",
+            "Excel 2013 for the Workplace",
+            "Office 2013 Essentials for the Workplace"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "subsections": [
+        {
+          "name": "Programming Languages",
+          "@": "Ruby, Python, C, C++, JavaScript, Java, SQL, Rust"
+        },
+        {
+          "name": "Frameworks & Tools",
+          "@": "Nuxt.js, Node.js, Rails, Git, Vim, SQLAlchemy, Plotly"
+        },
+        {
+          "name": "Operating Systems",
+          "@": "Linux, Mac OS, Windows"
+        }
+      ]
+    }
+  ]
+}
